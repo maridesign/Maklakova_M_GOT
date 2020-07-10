@@ -15,7 +15,9 @@
 	    	
 	    }
 
-	    sigils.forEach(sigil => sigil.addEventListener)
+	    sigils.forEach(sigil => sigil.addEventListener("click", showLightbox));
+        lbClose.addEventListenet("click", hideLightbox);
+   
 
 
 
